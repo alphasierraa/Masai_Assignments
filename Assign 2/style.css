@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.input-container {
+    margin: 20px;
+}
+
+.input-container input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.sort-controls {
+    margin: 20px;
+}
+
+.sort-controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.bar-graph {
+    display: inline-block;
+    width: 45%;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    height: 30px;
+}
+
+.bar div {
+    position: absolute;
+    height: 100%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.bar span {
+    margin-left: 10px;
+}
